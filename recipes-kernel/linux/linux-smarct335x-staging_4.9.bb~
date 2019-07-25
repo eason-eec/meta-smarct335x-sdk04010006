@@ -48,9 +48,9 @@ KERNEL_EXTRA_ARGS += "LOADADDR=${UBOOT_ENTRYPOINT}"
 
 S = "${WORKDIR}/git"
 
-BRANCH = "eec-kernel"
+BRANCH = "smarct3x-processor-sdk-04.01.00.06"
 
-SRCREV = "1115acb5c72894e4828727de3e2fe542ec535bce"
+SRCREV = "81cff8a160cb4b8941b4bbf8dbb7d2697d5da905"
 PV = "4.9.41+git${SRCPV}"
 
 # Append to the MACHINE_KERNEL_PR so that a new SRCREV will cause a rebuild
