@@ -10,9 +10,9 @@ PR = "r0+gitr${SRCPV}"
 
 SRC_URI = "${EMB_UBOOT_MIRROR};protocol=ssh;branch=${BRANCH}"
 
-BRANCH = "eec-uboot"
+BRANCH = "v2017.01-smarct3x"
 
-SRCREV = "e3315ef0c579fccbbb2e10e67e5cc849168effae"
+SRCREV = "93e96ce2ff6bd0458bcf3ab2861832b277628277"
 
 S = "${WORKDIR}/git"
 
